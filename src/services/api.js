@@ -1,5 +1,5 @@
 
-const API_URL = "http://127.0.0.1:8000/api/generate-pdf/";
+const API_URL = "https://proposal-generator-backend-p6xb.onrender.com";
 
 export const generateProposalPDF = async (proposal, template) => {
     const response = await fetch(API_URL, {
